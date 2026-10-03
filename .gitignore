@@ -1,0 +1,40 @@
+# Arduino / build files
+
+*.hex
+*.bin
+*.elf
+*.map
+*.eep
+
+# Arduino IDE temporary files
+
+*.tmp
+*.bak
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+
+.vscode/
+.idea/
+
+# Python cache (if used later)
+
+**pycache**/
+*.pyc
+
+# Environment / credential files
+
+.env
+.env.*
+secrets.h
+credentials.h
+
+# Local project backups
+
+*_WORKING.*
+*_backup.*
